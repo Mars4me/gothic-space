@@ -16,7 +16,7 @@ const Home: NextPage<HomeProps> = ({ home, articles }) => {
     <div>
       <Head>
         <title>{home.fields.title}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="favicon.ico" />
       </Head>
       <main>
         <div
